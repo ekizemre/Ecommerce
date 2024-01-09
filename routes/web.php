@@ -35,7 +35,7 @@ Route::middleware([
  route::get('/showproduct',[AdminController::class,'showproduct']);
  route::get('/updateview/{id}',[AdminController::class,'updateview']);
   route::get('/redirect',[HomeController::class,'redirect']);
-  route::get('/',[HomeController::class,'index']);
+ route::get('/',[HomeController::class,'index']);
  route::get('/deleteproduct/{id}',[AdminController::class,'deleteproduct']);
  route::post('/updateproduct/{id}',[AdminController::class,'updateproduct']);
  route::get('/search',[HomeController::class,'search']);

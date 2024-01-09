@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -55,7 +54,7 @@
         <div class="alert alert-success">
         <button type="button" class="close" data-dismiss="alert">Product Added Succesfully</button>
 
-        {{session()->get('mesaage')}}
+        {{session()->get('message')}}
 
         </div>
         @endif

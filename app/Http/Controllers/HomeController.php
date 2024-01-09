@@ -113,5 +113,7 @@ class HomeController extends Controller
         }
         DB::table('carts')->where('phone',$phone)->delete();
         return redirect()->back()->with('message','Product Order Succesfully');
+
+       
     }
 }
